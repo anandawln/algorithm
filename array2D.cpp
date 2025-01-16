@@ -23,7 +23,7 @@ int main (){
 			}
 			printf("\n");
 		}
-		input = getch();
+		input = getchar();
 		//w -> up
 		//a -> left
 		//s -> down
@@ -36,10 +36,10 @@ int main (){
 				if(playerX > 0) playerX-=1;
 			break;
 			case 's':
-				if(playerY > 0) playerY+=1;
+				if(playerY < 4) playerY+=1;
 			break;
 			case 'd':
-				if(playerX > 0) playerX+=1;
+				if(playerX < 4) playerX+=1;
 			break;
 		}
 		system("cls");
