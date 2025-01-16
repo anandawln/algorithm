@@ -4,10 +4,10 @@
 int main (){
 	
 	char map[][6] = {"*****", 
-					"*****", 
-					"*****", 
-					"*****",
-					"*****"};
+			"*****", 
+			"*****", 
+			"*****",
+			"*****"};
 	int playerX = 0, playerY = 0;
 	char player = 'P';
 	char input;
