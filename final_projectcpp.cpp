@@ -311,4 +311,5 @@ int main(){
 	return 0;
 }
 
-# input letter and click enter to move the "P"
+// input letter and click enter to move the "P"
+
